@@ -135,4 +135,8 @@ class: !pt-8 !pb-4
 layout: image
 image: ./plato-allegory-of-the-cave_edited.png
 ---
+  <div class="absolute bottom-4 right-4 w-40 text-center">
+    <img src="./qr_code.png" alt="description" class="w-full h-auto" />
+    <div class="text-black font-bold text-sm mt-2">Link to the source code for the slides</div>
+  </div>
 <!-- test -->

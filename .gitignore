@@ -1,0 +1,34 @@
+node_modules
+.DS_Store
+dist
+*.local
+.vite-inspect
+.remote-assets
+components.d.ts
+# Node.js dependencies
+node_modules/
+
+# Build outputs
+dist/
+.vite/
+
+# Local Slidev state/cache
+.slidev/
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Optional: OS swap or temp files
+*.swp
+*.tmp
+
+# Optional: environment variables
+.env

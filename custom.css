@@ -1,0 +1,7 @@
+/* custom.css — referenced in frontmatter as `css: custom.css` */
+:root {
+  --slidev-c-brand: #ff5722;       /* Primary color */
+  --slidev-c-brand-light: #ff8a50; /* Lighter variant */
+  --slidev-c-text: #ffffff;        /* Text color */
+  --slidev-c-bg: #121212;          /* Background color */
+}

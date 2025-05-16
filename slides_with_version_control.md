@@ -84,6 +84,34 @@ To solve this problem we should switch to a plain text format like Markdown, whe
 You just use special character to identify elements like headers, lists or bold text and let the typesetting be handled by an automatic software.
 All the journal support this paradigm and provide you with all the typesetting specification, so if you decide to change journal midway your writing you don't need to change anything in your document, just the typesetting rules of the compiler you are using. -->
 
+
+---
+layout: default
+class: !pt-8 !pb-4
+---
+# Collaboration
+<div class="flex justify-center items-start gap-4 mt-6">
+  <img src="./version_control.png" class="w-1/3 h-auto object-contain" />
+  <img src="./track_changes.png" class="w-2/3 h-auto object-contain" />
+</div>
+<!-- The last thing I want to talk about is collaboration.
+Everyone in this room has been in this position, when you start piling up different versions of the same document as separate files, usually by naming it with the date of the last modification.
+This is a nightmare to do, and I often found myself loosing content and having to go through every file to find it again.
+This gets amplified with multiple people are working on the document and different versions get scattered in multiple mail threads which then you need to start looking at.
+Also track changes are a nightmare and make it very difficult to visualize how the document should look like and what are the changes done to it.-->
+
+---
+layout: default
+class: !pt-8 !pb-4
+---
+# Version Control
+<div class="flex justify-center items-center gap-4 mt-6">
+  <img src="./git_tree.png" class="w-1/3 h-auto object-contain" />
+  <img src="./github-diff.png" class="w-2/3 h-auto object-contain" />
+</div>
+<!--This problem does not exist in plain text land as one can easily use version control software like git.
+The versions stop beeing a bunch of scattered files but become these nodes in a single place, with well documented and easy methods to navigate between them.
+Every change is added as a node in the tree and comparison between versions can be visualized in such a nicer way with this type of view, which to me is much clearer than track changes.-->
 ---
 layout: image
 image: ./plato-allegory-of-the-cave_edited.png
